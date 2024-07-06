@@ -1,5 +1,5 @@
 <template>
-  <div>home</div>
+  <div>gen</div>
 </template>
 
 <script setup>
