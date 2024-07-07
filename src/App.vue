@@ -16,6 +16,10 @@ body {
 	height: 100%;
 }
 #app {
+  height: 100%;
+  background-color: #030038;
+  background-image: url('../src/assets/home-bg.png');
+  background-size: cover;
   margin: 0;
   display: flex;
   flex-direction: column;

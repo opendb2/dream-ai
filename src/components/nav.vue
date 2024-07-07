@@ -20,7 +20,7 @@
 	.cmp-nav {
 		color: white;
 		position: relative;
-		background-color: #1E1E1E;
+		/* background-color: #030038; */
 		height: 132px;
 		display: flex;
 		justify-content: center;
