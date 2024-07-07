@@ -2,14 +2,21 @@
 	<div class="cmp-nav">
 		<div class="cmp-nav-center"><img class="nav-logo" src='../assets/logo.png'/>DreamStory</div>
 		<div class="cmp-nav-right">
-			<div>Create</div>
-			<div>Chat</div>
-			<div>My Dreams</div>
+			<div @click="goTo('/gen')">Create</div>
+			<div @click="goTo('/chat')">Chat</div>
+			<div @click="goTo('/jour')">My Dreams</div>
 		</div>
 	</div>
 </template>
 
 <script setup>
+	import { useRouter } from 'vue-router'
+	
+	const router = useRouter()
+	const goTo = (path) => {
+		console.log('router:', router, path);
+		router.push(path)
+	}
 </script>
 
 <style>
